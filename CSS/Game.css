@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(/Images/word-scramble-game.webp);
+    /* background-color: rgb(43, 43, 43); */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(226, 226, 226);
+    width: 450px;
+    border-radius: 6px;
+
+}
+
+.container h2{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    padding: 18px 25px;
+    border-bottom: 1px solid #ccc;
+}
+
+.container .content{
+    margin: 25px 20px 35px;
+}
+
+.content .word{
+    font-size: 33px;
+    font-weight: 500;
+    text-align: center;
+    text-transform: uppercase;
+    /* margin-right: -30px; */
+    letter-spacing: 5px;
+}
+
+.content .details{
+    margin: 25px 0 20px;
+}
+
+.details p{
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.details p b{
+    font-weight: 500;
+}
+
+.content input {
+    width: 90%;
+    height: 50px;
+    outline: none;
+    font-size: 18px;
+    padding: 0 16px;
+    border-radius: 5px;
+    border: 1px solid #aaa;
+} 
+
+.container .buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.buttons button{
+    border: none;
+    outline: none;
+    color: #ffff;
+    cursor: pointer;
+    width: 40%;
+    height: 50px;
+    padding: 15px 0;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.buttons .refresh-word{
+    background: #6c757d;
+}
+
+.buttons .check-word{
+    background: #5372F0 ;
+}
